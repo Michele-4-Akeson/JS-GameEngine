@@ -1,0 +1,49 @@
+.frame1{
+
+    
+    border: 10px solid transparent;
+    padding: 10px;   
+    border-image: url(border.png);
+    border-image-slice: 33%;
+    border-image-repeat: stretch;
+    border-image-width:15px;
+    
+    
+      
+  }
+
+
+
+  
+  
+  .Outline1{
+      border-style:solid;
+      border-width: 10px;
+      
+      border-color: rgb(69, 158, 43);
+      
+  
+  }
+  
+  .Outline2{
+      border-style:solid;
+      border-width: 10px;
+      border-color: rgb(219, 207, 29);
+  
+  }
+  
+  .Outline3 {
+      border-style:solid;
+      border-width: 10px;
+      border-color: rgb(255, 255, 255);
+      border-radius: 15px;
+      
+  
+  }
+  
+  .Outline4 {
+      border-style:solid;
+      border-width: 5px;
+      border-color: rgb(29, 57, 219);
+  
+  }

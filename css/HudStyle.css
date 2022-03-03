@@ -1,0 +1,61 @@
+
+ 
+
+.PlayerHud{
+    
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+.HudItem{
+    margin-bottom: 5px;
+}
+
+.Count{
+    font-size: 2vw;
+}
+
+
+
+.HudImg{
+    width: 3vw
+    
+}
+
+
+
+.HudButton{
+    background-color: rgba(81, 41, 97, 0.962);;
+    border-radius: 10px;
+    color: cornsilk;
+    border-width: 5px;
+    padding: 15px;
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .Count{
+        font-size: 3.5vw;
+    }
+    
+    
+    
+    .HudImg{
+        width: 6vw;
+    }
+}
+
+
+
+
+
+
+
+
+

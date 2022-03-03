@@ -1,0 +1,541 @@
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .Container{
+    position: fixed;
+    width: 88vw;
+    height: 90vh;
+    margin-left: 2.5vw;
+    margin-top: 5vh;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(81, 41, 97, 0.962);
+    
+    
+
+}
+
+
+
+
+    
+
+
+
+    /*
+    ITEM1 STYLE:
+    -> name of character
+    */
+
+    .Item1{
+        width: fit-content;
+        background: rgb(37, 36, 43);
+        text-align: center;
+        padding: 10px;
+        font-size: 3vw;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+        
+        
+    }
+
+
+
+
+     /*
+    ITEM2 STYLE:
+    Text-> Dialog Spoken by character
+    ButtonGroup -> responses to question
+      
+    */
+
+  .Item2{
+    width: 90%;
+    height: 90%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+  
+    
+    
+
+}
+
+
+  .Text{
+    word-break: keep-all;
+    font-size: 4.5vw;
+    line-height: 2;
+
+    
+    
+  }
+
+.ButtonGroup{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+margin-top: 10px;
+
+}
+
+
+.DialogButton{
+  text-align: right;
+  margin-right: 10vw;
+  font-size: 5vw;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  padding: 5px;
+  
+}
+
+
+
+.NextButton{
+    
+  align-self: center;
+  font-size: 8vw;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  box-shadow: none;
+  margin-top: -30px;
+  
+
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+/* small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) {
+
+  .Container{
+    position: absolute;
+    width: 88vw;
+    height: 90vh;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 2vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(81, 41, 97, 0.962);
+    
+    
+
+}
+
+
+
+
+    
+
+
+
+    /*
+    ITEM1 STYLE:
+    -> name of character
+    */
+
+    .Item1{
+        width: fit-content;
+        background: rgb(37, 36, 43);
+        text-align: center;
+        padding: 10px;
+        font-size: 3vw;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+        
+        
+    }
+
+
+
+
+     /*
+    ITEM2 STYLE:
+    Text-> Dialog Spoken by character
+    ButtonGroup -> responses to question
+      
+    */
+
+  .Item2{
+    width: 90%;
+    height: 90%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+  
+    
+    
+
+}
+
+
+  .Text{
+    word-break: keep-all;
+    font-size: 2.5vw;
+    line-height: 2;
+
+    
+    
+  }
+
+.ButtonGroup{
+display: flex;
+flex-direction: column;
+margin-top: 15px;
+
+}
+
+
+.DialogButton{
+  text-align: right;
+  margin-right: 10vw;
+  font-size: 4vw;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  padding: 10px;
+  
+}
+
+
+
+.NextButton{
+    
+  align-self: center;
+  font-size: 8vw;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  box-shadow: none;
+  margin-top: -30px;
+  
+
+}
+
+}
+
+
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up to 1200) */
+@media only screen and (min-width: 992px) {
+  .Container{
+    position: absolute;
+    width: 88vw;
+    height: 80vh;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+
+
+
+    
+
+
+
+    /*
+    ITEM1 STYLE:
+    -> name of character
+    */
+
+    .Item1{
+        width: fit-content;
+        background: rgb(37, 36, 43);
+        text-align: center;
+        padding: 10px;
+        font-size: 2.5vw;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+        
+        
+    }
+
+
+
+
+     /*
+    ITEM2 STYLE:
+    Text-> Dialog Spoken by character
+    ButtonGroup -> responses to question
+      
+    */
+
+  .Item2{
+    width: 90%;
+    height: 90%;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+  
+    
+    
+
+}
+
+
+  .Text{
+    word-break: keep-all;
+    font-size: 2vw;
+    line-height: 2;
+
+    
+    
+  }
+
+.ButtonGroup{
+display: flex;
+flex-direction: column;
+
+}
+
+
+.DialogButton{
+  text-align: right;
+  margin-right: 10vw;
+  font-size: 2.5vw;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  
+}
+
+
+
+.NextButton{
+    
+  align-self: center;
+  font-size: 8vw;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  box-shadow: none;
+  margin-top: -30px;
+  
+
+}
+
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .Container{
+    position: absolute;
+    width: 88vw;
+    height: 80vh;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-width: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    
+    
+
+}
+
+
+
+
+    
+
+
+
+    /*
+    ITEM1 STYLE:
+    -> name of character
+    */
+
+    .Item1{
+        width: fit-content;
+        background: rgb(37, 36, 43);
+        text-align: center;
+        padding: 10px;
+        font-size: 2.5vw;
+        border-radius: 10px;
+        margin-left: 10px;
+        margin-top: 10px;
+        
+        
+        
+    }
+
+
+
+
+     /*
+    ITEM2 STYLE:
+    Text-> Dialog Spoken by character
+    ButtonGroup -> responses to question
+      
+    */
+
+  .Item2{
+    width: 90%;
+    height: 90%;
+    margin-left: 2.0%;
+    margin-top: 2.5%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    overflow-y: auto;
+  
+  
+    
+    
+
+}
+
+
+  .Text{
+    word-break: keep-all;
+    font-size: 1.5vw;
+    line-height: 2;
+
+    
+    
+  }
+
+.ButtonGroup{
+display: flex;
+flex-direction: column;
+row-gap: 30px;
+
+}
+
+
+.DialogButton{
+  text-align: right;
+  margin-right: 10vw;
+  font-size: 2vw;
+  border: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  background: none;
+  box-shadow: none;
+  
+}
+
+
+
+.NextButton{
+    
+  align-self: center;
+  font-size: 8vw;
+  border: none;
+  color: rgb(255, 255, 255);
+  background: none;
+  box-shadow: none;
+  margin-top: -30px;
+  
+
+}
+
+
+}
+
+
+      
+      
+
+  
+
+    
+    
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

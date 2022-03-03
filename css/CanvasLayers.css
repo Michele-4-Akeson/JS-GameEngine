@@ -1,0 +1,52 @@
+﻿
+/*
+CANVAS-LAYER StyleSheet
+*/
+
+
+body{
+    background-color: rgb(51, 49, 49);
+}
+
+
+
+
+.GameView{
+    margin-left: 6px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+canvas {
+    position: fixed; /*canvas will be removed from flow of webpage, but will remain in a fixed position relative to the document*/
+    
+
+    
+   
+}
+
+.background {
+    /*border:black 10px solid;*/
+    z-index: 0;
+}
+
+.mainground {
+    /*border:firebrick 10px solid;*/
+    z-index: 1;
+}
+
+.foreground {
+    /*border:rgb(34, 178, 34) 10px solid; */
+    z-index: 2;
+}
+
+
+

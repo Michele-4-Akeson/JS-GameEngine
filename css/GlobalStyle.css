@@ -1,0 +1,84 @@
+/*
+GLOBAL STYLES:
+*/
+
+.TextStyle{
+    color: cornsilk;
+    font-family: 'Press Start 2P', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+  }
+
+
+  .imageAssets{
+    display: none;
+}
+
+
+
+
+
+
+
+.Center{
+  width: 100%;
+  height: 50%;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 2vmax;
+  line-height: 3vmax;
+}
+
+
+.Outline {
+  border-style:solid;
+  border-width: 10px;
+  border-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  
+
+}
+
+.Invisible {
+  opacity: 0;
+}
+
+
+.UI {
+  z-index: 10;
+
+}
+
+
+
+
+.StyleSpan{
+  word-break: keep-all;
+  /*display: inline-block; */
+}
+
+.reveal{
+  opacity: 1;
+}
+
+
+  .Blink {
+    animation: Blink 1.0s alternate infinite;
+    
+    
+  }
+
+  .NextButton:hover{
+    animation: Expand 0.2s;
+    animation-fill-mode: forwards; 
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+  }
+
+  
+  
+
+
+
+
+ 

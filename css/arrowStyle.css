@@ -1,0 +1,84 @@
+
+
+
+
+
+
+.arr {
+  cursor: pointer;
+  width: 8vmax;
+  height: 8vmax;
+  text-align: center;
+  line-height: 8vmax;
+  background: grey;
+  color: white;
+  font-size: 4vmax;
+  border-right: 10px solid darken(grey, 20);
+  border-bottom: 10px solid darken(grey, 20);
+  border-left: 10px solid darken(grey, 15);
+  border-top: 10px solid darken(grey, 10);  
+  display: inline-block;
+  margin: 5px;
+  transition: all .05s linear;
+}
+  
+  
+  
+  
+  .arr:active {
+    border-bottom: 8px solid darken(grey, 20);
+    text-shadow: 0 0 10px white, 0 0 10px white, 0 0 20px white;    
+    transform: translate(0, 2px);
+  }
+
+
+.up {
+  position: relative;
+  top: -4px;
+}
+
+.pressed {
+  border-bottom: 8px solid darken(grey, 20);
+  text-shadow: 0 0 10px white;
+  transform: translate(0, 2px);
+}
+
+.names {
+  font-size: 18px;  
+  font-family: 'Lato', sans-serif;    
+  text-align: center;
+  color: white;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white, 0 0 10px white;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+  .Keys {
+    position: fixed;
+    bottom:  0;
+    right: 0;
+    font-family: 'Lato', sans-serif;    
+    text-align: center;
+  
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+  }
+}
+
+
+@media only screen and (min-width: 993px) {
+  .Keys {
+    position: fixed;
+    visibility: hidden;
+    bottom:  0;
+    right: 0;
+    font-family: 'Lato', sans-serif;    
+    text-align: center;
+  
+    margin-bottom: 10px;
+    margin-right: 10px;
+
+  }
+}

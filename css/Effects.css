@@ -1,0 +1,229 @@
+/*
+EFFECTS & ANIMATION
+*/
+
+
+
+
+
+ /*
+   Glow: Effect adds changing glow to text
+   NOTE: span requires display:inline-block to use Effects/Animatioins
+ */
+  .Glow {
+    
+    color: #fff;
+    text-align: center;
+    animation: Glow 1.2s ease-in-out infinite alternate;
+    -moz-animation: Glow 1.s ease-in-out infinite alternate;
+    animation: Glow 1.2s ease-in-out infinite alternate;
+
+  }
+
+
+  .ButtonShake:hover {
+    animation:  Shake 0.1s alternate infinite;
+    color: rgb(247, 210, 2);
+  }
+
+
+  .Yellow {
+    color: rgb(247, 210, 2);
+    font-weight: bold;
+  }
+
+
+  .Black{
+    color: black;
+    font-weight: bold;
+  }
+
+
+  .Red {
+    color: rgb(253, 27, 27);
+    font-weight: bold;
+  }
+
+  .Blue {
+    color: royalblue;
+    font-weight: bold;
+  }
+  
+  .Green {
+    color: seagreen;
+    font-weight: bold;
+  }
+
+
+  .Float1 {
+    animation: Floating 2.5s ease-in-out infinite alternate;
+  }
+
+  
+  .Float2 {
+    animation: Floating 2.0s ease-in-out infinite alternate;
+  }
+
+  
+  .Float3 {
+    animation: Floating 3.0s ease-in-out infinite alternate;
+  }
+
+
+
+  
+  @keyframes Glow {
+    from {
+      text-shadow: 0 0 2.5px #fff, 0 0 5px #fff, 0 0 15px #e60073, 0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 30px #e60073;
+    }
+    to {
+      text-shadow: 0 0 5px #fff, 0 0 10px #ff4da6, 0 0 15px #ff4da6, 0 0 20px #ff4da6, 0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6;
+    }
+    
+  }
+
+
+
+  
+
+
+
+  /*
+  Shake: Effect adds shaking property to text or html element
+  NOTE: span requires display:inline-block to use Effects/Animatioins
+  
+  */
+
+
+  .Shake {
+    animation: Shake 0.1s alternate infinite;
+  }
+  
+  @keyframes Shake{
+    0%{
+      
+      transform: translateY(-1px)
+
+    }
+    25%{
+      transform: translateX(1px);
+    }
+      
+    50%{
+      transform: translateX(-1px);
+    }
+    100%{
+      transform: translateX(1px);
+    }
+  }
+
+  
+
+
+
+/*
+Fade: Effect fades in/out an html element
+*/
+@keyframes Fade-In {
+    from{opacity: 0;}
+    to {opacity: 1;}
+    
+}
+
+
+@keyframes Fade-Out {
+    from{opacity: 1;}
+    to{opacity: 0;}
+    
+}
+
+
+/*
+Floating: Effect raises and lowers an html element 8px
+*/
+
+@keyframes Floating {
+    0% {
+      
+      transform: translatey(0px);
+    }
+    50% {
+      
+      transform: translatey(-15px);
+    }
+    100% {
+      
+      transform: translatey(0px);
+    }
+  }
+
+
+
+
+/*
+Blink: Effect fades an html element in
+*/
+  @keyframes Blink{
+    from {opacity: 0;}
+    to{opacity: 1;}
+  }
+
+
+
+  @keyframes Expand{
+    from {transform: scale(1);}
+    to{transform: scale(3);}
+    
+  }
+
+
+
+
+
+  /*
+  Slide: Effect activates on hover over a html element. It slides the html element right and up
+  */
+
+  .Slide{
+    cursor: pointer;
+    position: relative;
+    transition: 0.3s;
+    
+  }
+  
+
+  .Slide:hover{
+    margin-right: 80px;
+    color:rgb(148, 189, 182);
+    
+  }
+  
+  
+  .Slide:active{
+    transform: translateY(-9px);
+   
+  }
+  
+
+  .Slide:after {
+    position: absolute;
+    opacity: 0;
+    margin-left: -10vw;
+   
+    transition: 0.5s;
+    
+    
+  }
+  
+  .Slide:hover:after {
+    opacity: 1;
+    
+    
+    
+    
+  }
+
+
+
+
+
