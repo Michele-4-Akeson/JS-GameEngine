@@ -6,9 +6,7 @@
 [demo](https://youtu.be/22Wo9riPfmc)
 
 #### **NOTE:**
-The provided public repo for this GameEngine does not have all features presented in demo. This is done to allow for users to better understand how code works in order to use GameEngine without being overwhelmed
-
-
+The provided public repo for this GameEngine starts with a simple template for a 2D top down game. Not all features shown in the demo are implemented in this template. This is done to streamline the main systems of GameEngine and not overwhelm the user.
 
 ### **Description:**
 A GameEngine made using only JavaScript, HTML, and CSS, designed specifically for _2D_ game development. To use this GameEngine, basic knowledge of vanilla JavaScript is recommended 
