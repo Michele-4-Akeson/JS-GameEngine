@@ -1,6 +1,6 @@
 # **JS-GameEngine**
 
-[](./assets/Capture.PNG)
+![](./assets/Capture.PNG)
 
 ### **Demo Game:**
 [demo](https://youtu.be/22Wo9riPfmc)
