@@ -13,6 +13,7 @@ A GameEngine made using only JavaScript, HTML, and CSS, designed specifically fo
 
 ### **Purpose/Use:**
 This GameEngine is designed to help users design simple 2D games (either top-down or side-view) which can be run efficiently in the browser, due to several system optimizations. The GameEngine uses several simple design patterns, such as strategy, factory, and command to provide more robust code that the user can extend upon to make their desired game.  
+* This GameEngine provides mobile support and resizing
 
 ### **Run Game:**
 To run the game for testing, just open the index.html file in a local host :) 
