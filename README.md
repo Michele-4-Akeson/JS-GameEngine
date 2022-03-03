@@ -1,5 +1,6 @@
 # **JS-GameEngine**
-
+### **Description:**
+A GameEngine made using only JavaScript, HTML, and CSS, designed specifically for _2D_ game development. To use this GameEngine, basic knowledge of vanilla JavaScript is recommended 
 ![](./assets/Capture.PNG)
 
 ### **Demo Game:**
@@ -7,9 +8,6 @@
 
 #### **NOTE:**
 The provided public repo for this GameEngine starts with a simple template for a 2D top down game. Not all features shown in the demo are implemented in this template. This is done to streamline the main systems of GameEngine and not overwhelm the user.
-
-### **Description:**
-A GameEngine made using only JavaScript, HTML, and CSS, designed specifically for _2D_ game development. To use this GameEngine, basic knowledge of vanilla JavaScript is recommended 
 
 ### **Purpose/Use:**
 This GameEngine is designed to help users design simple 2D games (either top-down or side-view) which can be run efficiently in the browser, due to several system optimizations. The GameEngine uses several simple design patterns, such as strategy, factory, and command to provide more robust code that the user can extend upon to make their desired game.  
@@ -32,3 +30,4 @@ The provided classes, GameObject, and ChildObject, act as the top level of inher
 
 ### **TO DO:**
 1. Create Phsyics System
+2. Add more documentation, and examples for users
